@@ -36,6 +36,8 @@ public class MainActivity extends CordovaActivity
         }
 
         // Set by <content src="index.html" /> in config.xml
-        loadUrl(launchUrl);
+//        loadUrl(launchUrl);
+        String abc="http://192.168.3.29:8080";
+        loadUrl(abc);
     }
 }
